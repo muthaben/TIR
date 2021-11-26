@@ -51,6 +51,19 @@ console.log(number * number)  // NaN
 </div>
 </details>
 <details>
+<summary>자바스크립트 성장의 역사</summary>
+<div markdown="1">
+
+초창기 자바스크립트는 웹페이지의 보조적인 기능을 수행하기 위해 한정적인 용도로 사용되었다. 이 시기에 대부분의 로직은 주로 웹 서버에서 실행되었고, 브라우저는 서버에서 전달받은 HTML과 CSS를 단순히 랜더링하는 수준이었다.
+
+> 렌더링(rendering)
+> 렌더링이란 HTML, CSS, 자바스크립트로 작성된 문서를 해석해서 브라우저에 시각적으로 출력하는 것을 말한다. 떄로는 서버에서 데이터를 HTML로 변환해서 브라우저에게 전달하는 과정(SSR; Server Side Rendering)을 가리키기도 한다.  
+
+### Ajax
+
+</div>
+</details>
+<details>
 <summary>객체지향 프로그래밍 개요</summary>
 <div markdown="1">
 
@@ -235,7 +248,7 @@ this는 자바스크립트 엔진에 의해 암묵적으로 생성되며, 코드
 > this 바인딩(binding)
 > 바인딩이랑 식별자와 값을 연결하는 과정이다. 예를 들어 변수 선언은 변수 이름(식별자)과 확보된 메모리 공간의 주소를 바인딩하는 것이다. this 바인딩은 this(키워드로 분류되지만 식별자 역할을 한다)와 this가 가리킬 객체를 바인딩하는 것이다.  
   
-![this-example](image/this-example.png)  
+![this-example](../image/this-example.png)  
 
 자바나 C++ 같은 클래스 기반 언어에서 this는 언제나 클래스가 생성하는 인스턴스를 가리킨다. 하지만 **자바스크립트의 this는 함수가 호출되는 방식에 따라 this에 바인딩될 값, 즉 this 바인딩이 동적으로 결정**된다.  
 this는 코드 어디에서든 참조 가능하다. 전역에서도 함수 내부에서도 참조할 수 있다.  
